@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>पंचमुखी बालाजी पचेरी धाम</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Baloo 2', cursive, Arial, sans-serif;
+            background: #fff8f0;
+            color: #4a4a4a;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6600, #cc0000);
+            color: white;
+            padding: 25px 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(204, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 900;
+            font-size: 2.8rem;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px 5px #661100;
+        }
+        nav {
+            background: #ff6600;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 15px 0;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+        }
+        nav a:hover {
+            color: #fff3e6;
+            border-bottom: 2px solid #fff3e6;
+        }
+        .hero {
+            background: url('images/balaji.jpg') center/cover no-repeat;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 10px 30px rgba(255, 102, 0, 0.25);
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 243, 230, 0.85);
+            border-radius: 12px;
+            z-index: 1;
+        }
+        .hero img {
+            position: relative;
+            z-index: 2;
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(204, 0, 0, 0.4);
+            margin-bottom: 20px;
+        }
+        .hero h2 {
+            position: relative;
+            z-index: 2;
+            font-size: 2.4rem;
+            color: #cc0000;
+            margin: 0;
+            text-shadow: 1px 1px 3px #ff6600;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+            font-size: 1.3rem;
+            line-height: 1.7;
+            color: #4a4a4a;
+        }
+        #about {
+            background: url('images/balaji.jpg') center/cover no-repeat;
+            position: relative;
+            border-radius: 15px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 30px rgba(255, 102, 0, 0.25);
+            #aarti {
+                background: url('images/balaji.jpg') center/cover no-repeat;
+                position: relative;
+                border-radius: 15px;
+                padding: 40px 20px;
+                box-shadow: 0 10px 30px rgba(255, 102, 0, 0.25);
+                margin-top: 40px;
+            }
+            #aarti::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(255, 243, 230, 0.92);
+                border-radius: 15px;
+                z-index: 1;
+            }
+            #aarti h3, #aarti p {
+                position: relative;
+                z-index: 2;
+            }
+        }
+        #about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 243, 230, 0.92);
+            border-radius: 15px;
+            z-index: 1;
+        }
+        #about h3, #about p {
+            position: relative;
+            z-index: 2;
+        }
+        section h3 {
+            color: #cc0000;
+            font-weight: 800;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #ff6600;
+            padding-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        section p {
+            margin-bottom: 20px;
+        }
+        strong {
+            color: #ff6600;
+        }
+        footer {
+            background: #cc0000;
+            color: white;
+            text-align: center;
+            padding: 18px 10px;
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 1.2px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <img src="images/teen.jpg" alt="पंचमुखी बालाजी" style="height: 80px; border-radius: 10px; box-shadow: 0 4px 12px rgba(204, 0, 0, 0.3);">
+        <h1>पंचमुखी बालाजी पचेरी धाम</h1>
+        <img src="images/2.jpg.jpg" alt="पंचमुखी बालाजी" style="height: 80px; border-radius: 10px; box-shadow: 0 4px 12px rgba(204, 0, 0, 0.3);">
+    </div>
+</header>
+
+<nav>
+    <a href="#about">धाम के बारे में</a>
+    <a href="#aarti">आरती का विवरण</a>
+    <a href="#gallery">गैलरी</a>
+    <a href="#contact">संपर्क करें</a>
+</nav>
+
+<section class="hero">
+    <img src="images/sahil.jpg" alt="आरती का समय" />
+    <h2>पंचमुखी बालाजी की आरती का समय</h2>
+</section>
+
+<section id="about">
+    <h3>धाम के बारे में</h3>
+    <p>
+        <strong>पंचमुखी बालाजी पचेरी धाम</strong> एक पवित्र मंदिर है जो भगवान बालाजी को समर्पित है। यहाँ देशभर से भक्त श्रद्धा और भक्ति के साथ आते हैं। यह धाम प्राकृतिक सुंदरता से घिरा हुआ है और यहाँ आकर आध्यात्मिक शांति का अनुभव होता है।
+    </p>
+    <p>
+        मंदिर अपने भव्य और भक्तिपूर्ण <strong>आरती समारोह</strong> के लिए प्रसिद्ध है, जो प्रत्येक दिन श्रद्धालुओं के लिए एक अद्भुत अनुभव प्रदान करता है।
+    </p>
+</section>
+
+<section id="aarti">
+    <h3>आरती का विवरण</h3>
+    <p>
+        यहां की <strong>संध्या आरती</strong> प्रतिदिन शाम 6:30 बजे प्रारंभ होती है और लगभग 30 मिनट तक चलती है। इस दौरान पारंपरिक दीपों और मंत्रोच्चारण से मंदिर का वातावरण भक्तिमय हो जाता है।
+    </p>
+    <p>
+        आरती के समय धूप, दीप, और भजन के साथ एक अद्भुत आध्यात्मिक माहौल निर्मित होता है, जो हर भक्त के मन को शांति और आनंद से भर देता है।
+    </p>
+</section>
+
+<section id="acharya" style="max-width: 900px; margin: 40px auto; padding: 0 20px; font-size: 1.3rem; line-height: 1.7; color: #4a4a4a;">
+    <div style="display: flex; align-items: flex-start; gap: 30px;">
+        <div style="flex: 1;">
+            <h3 style="color: #cc0000; font-weight: 800; margin-bottom: 15px; border-bottom: 3px solid #ff6600; padding-bottom: 8px; letter-spacing: 1px;">
+                आचार्य दीपक कौशिक के बारे में
+            </h3>
+            <p>
+                आचार्य दीपक कौशिक एक विख्यात आध्यात्मिक गुरु एवं विद्वान हैं, जिन्होंने भारतीय संस्कृति, धर्म, और योग के क्षेत्र में गहन अध्ययन एवं प्रचार-प्रसार किया है। वे भक्तों को आध्यात्मिक ज्ञान और जीवन में शांति प्राप्ति का मार्ग दिखाने के लिए समर्पित हैं।
+            </p>
+        </div>
+        <img src="images/acharya.jpg" alt="आचार्य दीपक कौशिक जी" style="width: 300px; border-radius: 15px; box-shadow: 0 6px 18px rgba(204, 0, 0, 0.3);">
+    </div>
+</section>
+
+<section id="gallery">
+    <h3>गैलरी</h3>
+    <p>धाम के विभिन्न समारोहों और त्योहारों के पावन पल यहाँ देखें।</p>
+    <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+        <img src="images/jpg.webp" alt="आरती समारोह" style="width: 30%; border-radius: 15px; box-shadow: 0 6px 18px rgba(204, 0, 0, 0.3);" />
+        <img src="images/sa.jpg" alt="मंदिर का दर्शन" style="width: 30%; border-radius: 15px; box-shadow: 0 6px 18px rgba(255, 102, 0, 0.3);" />
+        <img src="images/ram.jpg" alt="भक्त प्रार्थना करते हुए" style="width: 30%; border-radius: 15px; box-shadow: 0 6px 18px rgba(238, 9, 121, 0.3);" />
+    </div>
+</section>
+
+<section id="contact">
+    <h3>संपर्क करें</h3>
+    <p>
+        मंदिर कार्यालय से संपर्क करें:<br />
+        फोन: +91-9876543210<br />
+        ईमेल: info@panchmukhibalaji.com
+    </p>
+</section>
+
+<section id="video" style="text-align: center; margin-bottom: 40px;">
+    <h3>मंदिर का वीडियो दर्शन</h3>
+    <p>पंचमुखी बालाजी पचेरी धाम का वीडियो दर्शन करें</p>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <video width="45%" height="300" style="max-width: 400px; border-radius: 15px; box-shadow: 0 6px 18px rgba(204, 0, 0, 0.3);" controls>
+            <source src="images/s.mp4.mp4" type="video/mp4">
+            आपका ब्राउज़र वीडियो को सपोर्ट नहीं करता है।
+        </video>
+        <video width="45%" height="300" style="max-width: 400px; border-radius: 15px; box-shadow: 0 6px 18px rgba(255, 102, 0, 0.3);" controls>
+            <source src="images/h.mp4.mp4" type="video/mp4">
+            आपका ब्राउज़र वीडियो को सपोर्ट नहीं करता है।
+        </video>
+    </div>
+</section>
+
+<footer>
+    <div style="margin-bottom: 8px;">
+        &copy; 2025 पंचमुखी बालाजी पचेरी धाम | सर्वाधिकार सुरक्षित
+    </div>
+    <div style="margin-top: 6px;">
+        <a href="https://www.instagram.com/acharyadeepakkaushik?igsh=NGdubHByOHo4N2p1" target="_blank" style="color: white; margin-right: 20px; text-decoration: none; font-weight: 700;">
+            📸 Instagram
+        </a>
+        <a href="https://youtube.com/@acharyadeepakkaushik64?si=4p6QxdsOd-pQc9V8" target="_blank" style="color: white; font-weight: 700; text-decoration: none;">
+            ▶️ YouTube
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
